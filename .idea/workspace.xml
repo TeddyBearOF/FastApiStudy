@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ee7db59-e0e7-44d1-b445-37cf4aeba494" name="Changes" comment="Простые запросы + валидация">
-      <change afterPath="$PROJECT_DIR$/database.py" afterDir="false" />
+    <list default="true" id="4ee7db59-e0e7-44d1-b445-37cf4aeba494" name="Changes" comment="Подключил бдшку">
+      <change afterPath="$PROJECT_DIR$/hotels/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +107,7 @@
       <updated>1766205039124</updated>
       <workItem from="1766205040285" duration="1042000" />
       <workItem from="1766476927401" duration="6372000" />
-      <workItem from="1766655868036" duration="4499000" />
+      <workItem from="1766655868036" duration="6141000" />
     </task>
     <task id="LOCAL-00001" summary="1st">
       <option name="closed" value="true" />
@@ -134,7 +133,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766657705905</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Подключил бдшку">
+      <option name="closed" value="true" />
+      <created>1766662451183</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1766662451183</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,7 +150,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1st" />
     <MESSAGE value="Простые запросы + валидация" />
-    <option name="LAST_COMMIT_MESSAGE" value="Простые запросы + валидация" />
+    <MESSAGE value="Подключил бдшку" />
+    <option name="LAST_COMMIT_MESSAGE" value="Подключил бдшку" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/test$main.coverage" NAME="main Coverage Results" MODIFIED="1766653885316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
