@@ -7,6 +7,7 @@ from pydantic import BaseModel
 app = FastAPI()
 
 
+#Чтобы не передавать кучу аргументов в get-запросе
 class HotelsSearchArgs:
     def __init__(
         self,
@@ -23,12 +24,17 @@ class HotelsSearchArgs:
         self.has_spa = has_spa
 
 
+#pydantic-схема
+#Отвечает за request body
+#Request Body — тело запроса (тело сообщения) в HTTP-запросах.
+#Это часть сообщения, в которой передаются данные от клиента на сервер.
 class SHotel(BaseModel):
     address: str
     name: str
     stars: int
 
 
+#router, он же "ручка", за которую дёргают для выполнения действий
 @app.get(
     "/hotels",
     summary="Main router",
@@ -48,13 +54,14 @@ def get_hotels(
     return hotels
 
 
+#Тоже pydantic-схема
 class SBooking(BaseModel):
     room_id: int
     date_from: date
     date_to: date
 
 
-
+#router
 @app.post("/bookings")
 def add_booking(booking: SBooking):
     pass
